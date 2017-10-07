@@ -1,0 +1,119 @@
+@import url('https://rawgit.com/erikflowers/weather-icons/master/css/weather-icons.css');
+
+.loader {
+    animation: spin 0.9s linear infinite;
+    zindex: 1;
+    font-size: 140px;
+ }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.hide-loader{
+display:none;
+}
+
+
+body{
+  background: #333;
+
+
+}
+
+.inf{
+  display: block;
+  font-size: 30px;
+  margin: 12px 0 ;
+}
+.container{
+  text-align: center;
+  background-color: rgba(255,255,255, 0.9);
+  margin-top: 200px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  width: 600px;
+
+
+}
+
+.clima{
+   margin-bottom: 20px;
+  }
+
+.inf{
+  font-size: 40px;
+  color: white;
+}
+
+#icon{
+  font-size: 160px;
+  margin: 20px;
+}
+
+.temp{
+  font-size: 40px;
+  color: white;
+}
+
+.temp:hover {
+  color: gray;
+}
+
+i{
+  color: white;
+}
+
+p {
+  font-size: 12px;
+  color: white;
+  margin: 0;
+
+
+
+}
+
+h1{
+  font-family: encode sans;
+  font-size: 55px;
+  font-style: black;
+  font-weight: 900;
+  margin-bottom: 40px;
+  color:white;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+   .container{
+
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  width: 600px;
+  opacity: 0.9;
+  position: relative;
+  padding: 10px 30px 2px 30px;
+  width: 280px;
+  }
+
+  h1{
+  font-size: 28px;
+  font-style: black;
+  font-weight: 700;
+  margin-bottom: 10px;
+  }
+
+  .inf{
+  font-size: 24px;
+  color: white;
+}
+
+  #icon{
+  font-size: 100px;
+  margin: 10px;
+}
