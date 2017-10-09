@@ -4,6 +4,7 @@
     animation: spin 0.9s linear infinite;
     zindex: 1;
     font-size: 140px;
+    margin: 80px 0;
  }
 
 @keyframes spin {
@@ -15,6 +16,9 @@
 display:none;
 }
 
+.hide-infos{
+display:none;
+}
 
 body{
   background: #333;

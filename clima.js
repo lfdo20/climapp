@@ -43,6 +43,7 @@ $('document').ready(function(){
       $('#clima').html(clima);
       iconGen(data.weather[0].main);
       $('#loader').addClass("hide-loader");
+      $('#infos').removeClass("hide-infos");
     });
 
 });
